@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Regras Customizadas do AutoClipper ---
+# Ignorar ambientes virtuais
+venv/
+venv_antiga/
+
+# Ignorar mídias pesadas e pastas temporárias
+temp/
+*.mp4
+*.mkv
+*.wav
+*.avi
+
+# Ignorar arquivos de legendas soltos e metadados de execução
+*.ass
+*.json
+!metadata_cortes.json  # Mantém apenas se for um template, senão remova essa linha
+
+# Ignorar binários do FFmpeg (o usuário deve colocar os dele)
+bin/ffmpeg.exe
+bin/ffprobe.exe
+bin/*.dll
