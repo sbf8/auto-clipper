@@ -1,0 +1,17 @@
+# ==========================================
+# DEPENDÊNCIAS DO AUTOCLIPPER V5.0.0
+# ==========================================
+
+# Processamento de Vídeo e Áudio
+opencv-python>=4.13.0
+librosa>=0.11.0
+numpy>=1.24.3
+
+# Downloads e Extração de Metadados
+yt-dlp>=2025.0.0
+pymediainfo>=7.0.1
+
+# Inteligência Artificial (Transcrição e Alinhamento)
+openai-whisper>=20250625
+faster-whisper>=1.2.1
+whisperx>=3.4.4
